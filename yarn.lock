@@ -35,18 +35,26 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
+"@codexteam/icons@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@codexteam/icons/-/icons-0.0.4.tgz#8b72dcd3f3a1b0d880bdceb2abebd74b46d3ae13"
+  integrity sha512-V8N/TY2TGyas4wLrPIFq7bcow68b3gu8DfDt1+rrHPtXxcexadKauRJL6eQgfG7Z0LCrN4boLRawR4S9gjIh/Q==
+
 "@deepcode/dcignore@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@deepcode/dcignore/-/dcignore-1.0.2.tgz#39e4a3df7dde8811925330506e4bb3fbf3c288d8"
   integrity sha512-DPgxtHuJwBORpqRkPXzzOT+uoPRVJmaN7LR+pmeL6DQM90kj6G6GFUH1i/YpRH8NbML8ZGEDwB9f9u4UwD2pzg==
 
-"@editorjs/editorjs@2.20.0":
-  version "2.20.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.20.0.tgz#1e0dc7e6c1433c34c9d2d3e42153313c2dbb3514"
-  integrity sha512-e6DWi8bMypFhovq9R6cefaDWVfrlVU++Q7ABp79+MxZIuC/SKAW5EtxBbKPL22H/Mc3bJIhZCxOqEl70HBh2yw==
+"@editorjs/editorjs@2.26.0":
+  version "2.26.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.26.0.tgz#42414a6ddacdc4a9d46ac1f496d7d016ec381801"
+  integrity sha512-0yrpvrUkvl5zNbo7OhBmd2YzbXtBwyfca9zzMGTogGHSGsLeEWmuuv5SxBH67N53jmKr1ctOFkOK9DfnPg8EAg==
   dependencies:
+    "@codexteam/icons" "^0.0.4"
     codex-notifier "^1.1.2"
-    codex-tooltip "^1.0.1"
+    codex-tooltip "^1.0.5"
+    html-janitor "^2.0.4"
+    nanoid "^3.1.22"
 
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
@@ -1523,10 +1531,10 @@ codex-notifier@^1.1.2:
   resolved "https://registry.yarnpkg.com/codex-notifier/-/codex-notifier-1.1.2.tgz#a733079185f4c927fa296f1d71eb8753fe080895"
   integrity sha512-DCp6xe/LGueJ1N5sXEwcBc3r3PyVkEEDNWCVigfvywAkeXcZMk9K41a31tkEFBW0Ptlwji6/JlAb49E3Yrxbtg==
 
-codex-tooltip@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/codex-tooltip/-/codex-tooltip-1.0.2.tgz#81a9d3e2937658c6e5312106b47b9f094ff7be63"
-  integrity sha512-oC+Bu5X/zyhbPydgMSLWKoM/+vkJMqaLWu3Dt/jZgXS3MWK23INwC5DMBrVXZSufAFk0i0SUni38k9rLMyZn/w==
+codex-tooltip@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/codex-tooltip/-/codex-tooltip-1.0.5.tgz#ba25fd5b3a58ba2f73fd667c2b46987ffd1edef2"
+  integrity sha512-IuA8LeyLU5p1B+HyhOsqR6oxyFQ11k3i9e9aXw40CrHFTRO2Y1npNBVU3W1SvhKAbUU7R/YikUBdcYFP0RcJag==
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -3206,6 +3214,11 @@ hsla-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/hsla-regex/-/hsla-regex-1.0.0.tgz#c1ce7a3168c8c6614033a4b5f7877f3b225f9c38"
   integrity sha1-wc56MWjIxmFAM6S194d/OyJfnDg=
 
+html-janitor@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/html-janitor/-/html-janitor-2.0.4.tgz#ae5a115cdf3331cd5501edd7b5471b18ea44cdbb"
+  integrity sha512-92J5h9jNZRk30PMHapjHEJfkrBWKCOy0bq3oW2pBungky6lzYSoboBGPMvxl1XRKB2q+kniQmsLsPbdpY7RM2g==
+
 html5-qrcode@^2.0.11:
   version "2.0.11"
   resolved "https://registry.yarnpkg.com/html5-qrcode/-/html5-qrcode-2.0.11.tgz#2cc5f63e767be53dd6c6d56b6c4f180a12aa8075"
@@ -4573,12 +4586,7 @@ nan@^2.13.2:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
   integrity sha512-isWHgVjnFjh2x2yuJ/tj3JbwoHu3UC2dX5G/88Cm24yB6YopVgxvBObDY7n5xW6ExmFhJpSEQqFPvq9zaXc8Jw==
 
-nanoid@^3.1.22:
-  version "3.1.22"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.22.tgz#b35f8fb7d151990a8aebd5aa5015c03cf726f844"
-  integrity sha512-/2ZUaJX2ANuLtTvqTlgqBQNJoQO398KyJgZloL0PZkC0dpysjncRUPsFe3DUPzz/y3h+u7C46np8RMuvF3jsSQ==
-
-nanoid@^3.1.23:
+nanoid@^3.1.22, nanoid@^3.1.23:
   version "3.1.23"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
   integrity sha512-FiB0kzdP0FFVGDKlRLEQ1BgDzU87dy5NnzjeW9YZNt+/c3+q82EQDUwniSAUxp/F0gFNI1ZhKU1FqYsMuqZVnw==
