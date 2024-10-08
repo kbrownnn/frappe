@@ -27,7 +27,7 @@
     "awesomplete": "^1.1.5",
     "bootstrap": "4.5.0",
     "cliui": "^7.0.4",
-    "cookie": "^0.4.0",
+    "cookie": "^0.7.0",
     "cropperjs": "^1.5.12",
     "cssnano": "^5.0.0",
     "driver.js": "^0.9.8",
