@@ -60,7 +60,7 @@
     "socket.io": "^2.4.0",
     "superagent": "^3.8.2",
     "touch": "^3.1.0",
-    "vue": "2.6.12",
+    "vue": "3.0.0",
     "vue-router": "^2.0.0"
   },
   "devDependencies": {
