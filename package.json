@@ -69,7 +69,7 @@
     "esbuild-plugin-postcss2": "^0.0.9",
     "esbuild-vue": "^0.2.0",
     "fast-glob": "^3.2.5",
-    "launch-editor": "^2.2.1",
+    "launch-editor": "^2.14.2",
     "md5": "^2.3.0",
     "rtlcss": "^3.2.1",
     "yargs": "^16.2.0"
